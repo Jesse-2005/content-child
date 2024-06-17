@@ -1,0 +1,24 @@
+<div>
+    <app-child>
+        <h3>Some Heading</h3>
+        <p #para>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        </p>
+        <p #para>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        </p>
+        <p #para>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        </p>
+        <app-test [name]="'Jesse'"></app-test>
+        <app-test [name]="'Ari'"></app-test>
+        <app-test [name]="'Felipe'"></app-test>
+        <app-test [name]="'Dorothy'"></app-test>
+        <app-test [name]="'Onsworth'"></app-test>
+    </app-child>
+
+    <button (click)="showParaValue()">Show Value</button>
+</div>
